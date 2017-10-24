@@ -9,18 +9,35 @@
   clear: both;
 }
 
-.icon-menu {
+.icon-menu:before {
+  font-size: 4em;
   position: absolute;
   right: 0px;
   top: 0px;
 }
 
-.icon-menu:before {
-  font-size: 4em;
-}
-
 .icon-menu li {
   display: none;
+  list-style: none;
+  color: #777;
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  border-bottom: solid 1px lightgray;
+  margin: 0 0.5em 0 0.2em;
+  padding: 0.7em 0;
+}
+
+.main-nav:hover .icon-menu li {
+  display: block;
+}
+
+.main-nav:active .icon-menu li {
+  display: block;
+}
+
+.main-nav:focus .icon-menu li {
+  display: block;
 }
 
 .byline {
