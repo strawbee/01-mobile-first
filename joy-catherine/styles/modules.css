@@ -1,6 +1,5 @@
 .site-header {
   background: #fceab2;
-  padding: 1.2em;
   margin-bottom: 30px;
 }
 
@@ -22,4 +21,15 @@
 
 .icon-menu li {
   display: none;
+}
+
+.byline {
+  font-size: 1.2em;
+  color: #777;
+  margin-bottom: 1.3em;
+}
+
+.article-body {
+  padding: 0;
+  margin-bottom: 2em;
 }
