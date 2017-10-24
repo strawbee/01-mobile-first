@@ -9,34 +9,3 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.3em;
 }
-
-h1 {
-  margin: 10px 0 40px 0;
-  font-size: 2.5em;
-  line-height: 1em;
-}
-
-h2 {
-  margin: 20px 0 10px 0;
-  font-size: 2em;
-  line-height: 1.4em;
-}
-
-img {
-  max-width: 100%;
-  margin: 1em auto;
-  display: block;
-}
-
-section {
-  padding: 1.15em;
-}
-
-ul {
-  list-style-position: inside;
-}
-
-footer {
-  text-align: center;
-  padding: 1em;
-}
