@@ -1,0 +1,25 @@
+.site-header {
+  background: #fceab2;
+  padding: 1.2em;
+  margin-bottom: 30px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.icon-menu {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.icon-menu:before {
+  font-size: 4em;
+}
+
+.icon-menu li {
+  display: none;
+}
